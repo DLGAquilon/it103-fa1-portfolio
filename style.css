@@ -38,14 +38,18 @@ body.dark{
 .card{
     background: #fff;
     padding: 20px;
+    border: 3px #fff;
     border-radius: 12px;
     box-shadow: 0 4px 12px rgba(0,0,0,0.1);
+    margin-bottom: 20px;
     transition: transform 0.2s ease, box-shadow 0.2s ease;
 }
 
 
 body.dark .card{
     background: #1e1e1e;
+    border: 3px #1f1f1f;
+    border-radius: 12px;
     box-shadow: 0 4px 15px rgba(255,255,255,0.05);
 }
 
@@ -64,4 +68,5 @@ body.dark .card:hover{
 .card h2{
     margin-top: 0;
 }
+
 
