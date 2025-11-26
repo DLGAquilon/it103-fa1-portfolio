@@ -7,29 +7,37 @@
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    
-    <header>
-        <h1 id="name">Belandres, Vin Benjamin J.</h1>
-        <img src="formal-image.jpg" alt="Profile Picture" id="profile-img">
-        <p id="course-year">Bachelor of Science in Computer Science - Year 2</p>
-        <button id="theme-toggle">Switch Theme</button>
-    </header>
-    <section id="achievements">
-        <h2>Achievements </h2>
-        <ul>
-            <li>Java Information Technology Specialist - 2025</li>
-            <li>Dean's Lister, 1T, 2nd Term - S.Y 2024-2025</li>
-            <li>3rd Place - Battle of the Bands - Pasikatay 2024</li>
-        </ul>
-    </section>
-    <section id="projects">
-        <h2>Previous Projects</h2>
-        <li> Project PlastiCycle: A Year-Round Plastic Deposit, Competition, and Analytics in MMCM - 2025</li>
-        <li> TechnoHub: PC Peripheral POS System</li>
-        <li> BancLite: Banking Management System Application</li>
-        <li> FilipiKnows: A Game Quiz in Philippine Knowledge</li>
-    </section>
+    <div class="wrap" id="page">
+        <header>
+            <div>
+                <h1 id="name">Belandres, Vin Benjamin J.</h1>
+                <p id="course-year">Bachelor of Science in Computer Science - Year 2</p>
+            </div>
+            <img src="formal-image.jpg" alt="Profile Picture" id="profile-img">
+            <button id="theme-toggle">Switch Theme</button>
+        </header> 
+        <main class="grid">
+            <section id="achievements" tabindex="0">
+            <h2>Achievements </h2>
+            <ul class="card-list">
+                <li class="card-item">Java Information Technology Specialist - <span class="muted">2025</span></li>
+                <li class="card-item">Dean's Lister, 1T, 2nd Term - <span class="muted"> S.Y 2024-2025 </span></li>
+                <li class="card-item">3rd Place - Battle of the Bands - <span class="muted"> Pasikatay 2024</span></li>
+            </ul>
+            </section>
+                <section id="projects" tabindex="0">
+                <h2>Previous Projects</h2>
+                <ul class="card-list">
+                    <li class="card-item"> Project PlastiCycle: A Year-Round Plastic Deposit, Competition, and Analytics in MMCM </li>
+                    <li class="card-item"> TechnoHub: PC Peripheral POS System</li>
+                    <li class="card-item"> BancLite: Banking Management System Application</li>
+                    <li class="card-item"> FilipiKnows: A Game Quiz in Philippine Knowledge</li>
+                </ul>
+            </section>
+        </main>
+    </div>
     <script src="script.js"></script>
 </body>
 
 </html>
+
