@@ -73,9 +73,16 @@ export default function Portfolio() {
                   <span className="text-base md:text-xl opacity-50 italic">S.Y 2024-2025</span>
                 </div>
               </li>
+              <li className="flex gap-4 items-start opacity-90">
+                <Award className="text-zinc-400 shrink-0 mt-1" size={28} />
+                <div className="flex flex-col">
+                  <span className="text-xl md:text-3xl font-semibold">With Honors - Grade 12</span>
+                  <span className="text-base md:text-xl opacity-50 italic">S.Y 2023-2024</span>
+                </div>
+              </li>
             </ul>
           </section>
-
+ 
           {/* 2. Projects Section */}
           <section className="p-6 md:p-12 rounded-2xl md:rounded-3xl border shadow-2xl border-orange-100 dark:border-orange-900/20 bg-gradient-to-tr from-background via-background to-accent-orange/10">
             <h2 className="font-serif text-3xl md:text-5xl mb-6 md:mb-8 flex items-center gap-4">
@@ -87,9 +94,10 @@ export default function Portfolio() {
                 { title: "Eco-Lens", body: "Unified Real-Time Environmental Metric Dashboard using Next.js and REST APIs.", highlight: true },
                 { title: "PathFinder", body: "Pathfinding web app implementing A* and Dijkstra's Algorithm.", status: "In Development" },
                 { title: "AlagaLink", body: "AI-assisted remote triage system used to optimize wait times.", status: "In Development" },
-                { title: "Project PlastiCycle", body: "Plastic deposit and analytics platform for MMCM.", status: "In Development" },
+                { title: "Project PlastiCycle", body: "AI-assisted Plastic deposit and analytics platform for MMCM.", status: "In Development" },
                 { title: "TechnoHub", body: "C# based POS System for PC Peripherals." },
                 { title: "BancLite", body: "Offline Banking Simulation app in using Java." },
+                { title: "FilipiKnows", body: "A C++ Console-based Quiz Game about everything Filipino. "},
               ].map((proj, i) => (
                 <div key={i} className="group border-l-2 border-transparent hover:border-accent-orange pl-4 transition-all">
                   <div className="flex flex-wrap items-center gap-3">
