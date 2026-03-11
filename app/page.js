@@ -91,10 +91,10 @@ export default function Portfolio() {
             </h2>
             <div className="space-y-8 md:space-y-12">
               {[
-                { title: "Eco-Lens", body: "Unified Real-Time Environmental Metric Dashboard using Next.js and REST APIs.", highlight: true },
+                { title: "AlagaLink", body: "AI-assisted remote triage system used to optimize wait times.", status: "Completed", highlight: true },
                 { title: "PathFinder", body: "Pathfinding web app implementing A* and Dijkstra's Algorithm.", status: "In Development" },
-                { title: "AlagaLink", body: "AI-assisted remote triage system used to optimize wait times.", status: "In Development" },
                 { title: "Project PlastiCycle", body: "AI-assisted Plastic deposit and analytics platform for MMCM.", status: "In Development" },
+                { title: "Eco-Lens", body: "Unified Real-Time Environmental Metric Dashboard using Next.js and REST APIs."},
                 { title: "TechnoHub", body: "C# based POS System for PC Peripherals." },
                 { title: "BancLite", body: "Offline Banking Simulation app in using Java." },
                 { title: "FilipiKnows", body: "A C++ Console-based Quiz Game about everything Filipino. "},
@@ -121,7 +121,7 @@ export default function Portfolio() {
           {/* 3. Summative Assessments Section */}
           <section className="p-6 md:p-12 rounded-2xl md:rounded-3xl bg-zinc-950 text-white dark:bg-zinc-900/40 dark:border dark:border-zinc-800 shadow-2xl">
             <div className="mb-10">
-              <h2 className="font-serif text-3xl md:text-5xl mb-4">Summative Assessments</h2>
+              <h2 className="font-serif text-3xl md:text-5xl mb-4">IT103 Assessments</h2>
               <div className="w-20 h-1 bg-accent-orange rounded-full"></div>
             </div>
 
@@ -131,7 +131,7 @@ export default function Portfolio() {
               className="block p-6 md:p-8 rounded-xl bg-zinc-900 border border-zinc-800 hover:border-accent-orange transition-all group mb-12"
             >
               <div className="flex justify-between items-start mb-4">
-                <span className="text-accent-orange text-xs md:text-sm font-bold uppercase tracking-[0.2em]">Major Output</span>
+                <span className="text-accent-orange text-xs md:text-sm font-bold uppercase tracking-[0.2em]">Summative 1</span>
                 <ExternalLink className="opacity-0 group-hover:opacity-100 transition-opacity" size={20} />
               </div>
               <h3 className="text-2xl md:text-4xl font-bold mb-4 group-hover:text-orange-400 transition-colors">
@@ -139,6 +139,25 @@ export default function Portfolio() {
               </h3>
               <p className="text-zinc-400 text-base md:text-xl mb-6">
                 The definitive version of the sustainability dashboard, fully deployed.
+              </p>
+              <span className="inline-flex items-center gap-2 text-accent-emerald font-bold uppercase tracking-widest text-xs md:text-sm">
+                View Live Application →
+              </span>
+            </a>
+            <a
+              href="https://alagalink-ai-assisted-remote-triage.vercel.app"
+              target="_blank"
+              className="block p-6 md:p-8 rounded-xl bg-zinc-900 border border-zinc-800 hover:border-accent-orange transition-all group mb-12"
+            >
+              <div className="flex justify-between items-start mb-4">
+                <span className="text-accent-orange text-xs md:text-sm font-bold uppercase tracking-[0.2em]">Summative 2</span>
+                <ExternalLink className="opacity-0 group-hover:opacity-100 transition-opacity" size={20} />
+              </div>
+              <h3 className="text-2xl md:text-4xl font-bold mb-4 group-hover:text-orange-400 transition-colors">
+                AlagaLink: AI-Assisted Remote Triage System
+              </h3>
+              <p className="text-zinc-400 text-base md:text-xl mb-6">
+                A web application that provides an AI-assisted remote triage system for medical professionals.
               </p>
               <span className="inline-flex items-center gap-2 text-accent-emerald font-bold uppercase tracking-widest text-xs md:text-sm">
                 View Live Application →
