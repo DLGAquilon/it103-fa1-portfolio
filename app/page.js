@@ -286,7 +286,7 @@ export default function Portfolio() {
           </section>
 
           {/* 4. Other Projects Section */}
-          <section className="p-6 md:p-12 rounded-2xl md:rounded-3xl border border-zinc-200 dark:border-zinc-800 bg-zinc-50/50 dark:bg-zinc-900/20">
+          <section className="p-6 md:p-12 rounded-2xl md:rounded-3xl border border-zinc-200 dark:border-zinc-800 bg-zinc-50/50 dark:bg-zinc-900/40">
             <div className="flex flex-col md:flex-row md:items-center justify-between gap-6">
               <div>
                 <h2 className="font-serif text-3xl md:text-4xl mb-2">
@@ -300,7 +300,7 @@ export default function Portfolio() {
               <a
                 href="https://github.com/DLGAquilon/CareNest_Project.git"
                 target="_blank"
-                className="block p-6 md:p-8 rounded-xl bg-zinc-900 border border-zinc-800 hover:border-accent-orange transition-all group mb-12"
+                className="block p-6 md:p-8 rounded-xl bg-zinc-950 border border-zinc-800 hover:border-accent-orange transition-all group mb-12"
               >
                 <div className="flex justify-between items-start mb-4">
                   <span className="text-accent-orange text-xs md:text-sm font-bold uppercase tracking-[0.2em]">
@@ -311,11 +311,14 @@ export default function Portfolio() {
                     size={20}
                   />
                 </div>
-                <h3 className="text-2xl md:text-4xl font-bold mb-4 group-hover:text-orange-400 transition-colors">
+                <h3 className="text-2xl md:text-4xl font-bold mb-4 text-white group-hover:text-orange-400 transition-colors">
                   CareNest: Integrated Residential Eldercare Management System
                 </h3>
                 <p className="text-zinc-400 text-base md:text-xl mb-6">
-                  A mobile application designed to streamline the management of residential eldercare facilities, replacing traditional paper-based records with a digital solution for improved efficiency and care quality.
+                  A mobile application designed to streamline the management of
+                  residential eldercare facilities, replacing traditional
+                  paper-based records with a digital solution for improved
+                  efficiency and care quality.
                 </p>
                 <span className="inline-flex items-center gap-2 text-accent-emerald font-bold uppercase tracking-widest text-xs md:text-sm">
                   View GitHub Repository →
