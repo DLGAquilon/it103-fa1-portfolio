@@ -13,8 +13,19 @@ const libreBaskerville = Libre_Baskerville({
 });
 
 export const metadata = {
-  title: "Portfolio",
-  description: "Created by Vin Belandres for future projects and memories.",
+  title: "Vin Benjamin Belandres",
+
+  description:
+    "Software Engineer | Full Stack Developer | React | Next.js | React Native",
+
+  keywords: [
+    "Software Engineer",
+    "Next.js",
+    "React",
+    "Portfolio",
+    "Java",
+    "Supabase",
+  ],
 };
 
 export default function RootLayout({ children }) {

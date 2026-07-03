@@ -48,3 +48,8 @@ html {
 body {
   background: white;
 }
+
+::selection {
+  background: #f97316;
+  color: white;
+}
