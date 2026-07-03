@@ -7,19 +7,31 @@ export default function Navbar() {
         <h1 className="font-serif text-2xl font-bold">VB.</h1>
 
         <nav className="hidden md:flex gap-10 text-sm uppercase tracking-widest">
-          <a href="#about" className="hover:text-orange-500 transition">
+          <a
+            href="#about"
+            className=" relative after:absolute after:left-0 after:-bottom-2 after:h-[2px] after:w-0 after:bg-orange-500 after:transition-all hover:after:w-full "
+          >
             About
           </a>
 
-          <a href="#projects" className="hover:text-orange-500 transition">
+          <a
+            href="#projects"
+            className=" relative after:absolute after:left-0 after:-bottom-2 after:h-[2px] after:w-0 after:bg-orange-500 after:transition-all hover:after:w-full "
+          >
             Projects
           </a>
 
-          <a href="#certificates" className="hover:text-orange-500 transition">
+          <a
+            href="#certificates"
+            className=" relative after:absolute after:left-0 after:-bottom-2 after:h-[2px] after:w-0 after:bg-orange-500 after:transition-all hover:after:w-full "
+          >
             Certificates
           </a>
 
-          <a href="#contact" className="hover:text-orange-500 transition">
+          <a
+            href="#contact"
+            className=" relative after:absolute after:left-0 after:-bottom-2 after:h-[2px] after:w-0 after:bg-orange-500 after:transition-all hover:after:w-full "
+          >
             Contact
           </a>
         </nav>
