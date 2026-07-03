@@ -35,15 +35,8 @@ export default function About() {
           </h2>
 
           <p className="max-w-3xl mx-auto mt-8 text-xl text-zinc-600 leading-9 text-justify">
-            Technically-inclined Computer Science students with a passion for
-            building impactful projects, cleaning malware-infected systems, and
-            creating innovative solutions. Skilled in programming languages, web
-            development, and problem-solving, with a strong desire to learn and
-            grow in the field of technology. During my childhood, I was
-            constantly annoyed by malware-infected systems, which sparked my
-            interest in technology and led me to pursue a career in the field. I
-            am eager to contribute my skills and knowledge to make a positive
-            impact in the world of technology.
+            During my childhood, I was constantly annoyed by malware-infected systems, which sparked my interest in technology and led me to pursue a career in the field. 
+            I am eager to contribute my academically-learned skill and knowledge to make a positive impact in the world of technology.
           </p>
           <motion.div
             initial={{
