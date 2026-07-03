@@ -1,9 +1,23 @@
-export default function Certificates() {
-    return (
-        <section className="py-32">
-            <h2 className="text-5xl font-serif text-center">
-                Certificates
-            </h2>
-        </section>
-    );
+export default function Certificates(){
+
+return(
+
+<section
+
+id="certificates"
+
+className="min-h-screen flex items-center justify-center"
+
+>
+
+<h2 className="font-serif text-6xl">
+
+Certificates
+
+</h2>
+
+</section>
+
+);
+
 }
