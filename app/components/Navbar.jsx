@@ -34,6 +34,12 @@ export default function Navbar() {
           >
             Contact
           </a>
+          <a
+            href="#timeline"
+            className=" relative after:absolute after:left-0 after:-bottom-2 after:h-[2px] after:w-0 after:bg-orange-500 after:transition-all hover:after:w-full "
+          >
+            Timeline
+          </a>
         </nav>
       </div>
     </header>

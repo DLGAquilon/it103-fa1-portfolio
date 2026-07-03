@@ -4,7 +4,7 @@ import TechMarquee from "./components/TechMarquee";
 import About from "./components/About";
 import Projects from "./components/Projects";
 import Certificates from "./components/Certificates";
-import Timeline from "./components/Timeline";
+import Timeline from "./components/timeline/Timeline";
 import Skills from "./components/Skills";
 import Contact from "./components/Contact";
 import Footer from "./components/Footer";
