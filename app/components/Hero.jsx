@@ -23,7 +23,7 @@ export default function Hero() {
           transition={{ duration: 0.8 }}
         >
           <span className="uppercase tracking-[.4em] text-orange-500 font-semibold text-sm">
-            Software Engineer
+            Computer Science Student • Software Developer • Tech Enthusiast
           </span>
 
           <h1 className="font-serif text-6xl lg:text-8xl mt-5 leading-tight">
