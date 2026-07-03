@@ -1,15 +1,15 @@
 import { Montserrat, Libre_Baskerville } from "next/font/google";
 import "./globals.css";
 
-const montserrat = Montserrat({ 
-  subsets: ["latin"], 
-  variable: "--font-montserrat" 
+const montserrat = Montserrat({
+  subsets: ["latin"],
+  variable: "--font-montserrat",
 });
 
-const libreBaskerville = Libre_Baskerville({ 
-  weight: ["400", "700"], 
-  subsets: ["latin"], 
-  variable: "--font-libre" 
+const libreBaskerville = Libre_Baskerville({
+  weight: ["400", "700"],
+  subsets: ["latin"],
+  variable: "--font-libre",
 });
 
 export const metadata = {
@@ -20,9 +20,12 @@ export const metadata = {
 export default function RootLayout({ children }) {
   return (
     <html lang="en">
-      <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1"></meta>
+      <meta
+        name="viewport"
+        content="width=device-width, initial-scale=1, maximum-scale=1"
+      ></meta>
       <body
-        className={`${montserrat.variable} ${libreBaskerville.variable} antialiased font-sans bg-white dark:bg-zinc-950 text-zinc-900 dark:text-zinc-100 transition-colors duration-300`}
+        className={`${montserrat.variable} ${libreBaskerville.variable} font-sans bg-white text-zinc-900 antialiased overflow-x-hidden`}
       >
         {children}
       </body>
